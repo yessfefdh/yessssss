@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>10대의 올바른 수면 습관</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>10대의 올바른 수면 습관</h1>
+        <nav>
+            <ul>
+                <li><a href="#why">왜 수면이 중요할까?</a></li>
+                <li><a href="#how">올바른 수면 방법</a></li>
+                <li><a href="#tips">수면 팁</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="why">
+        <h2>왜 수면이 중요할까?</h2>
+        <p>수면은 신체와 뇌의 회복을 도와줍니다. 특히 10대는 성장기에 있기 때문에 충분한 수면이 매우 중요합니다.</p>
+    </section>
+
+    <section id="how">
+        <h2>올바른 수면 방법</h2>
+        <ul>
+            <li>1. 일정한 시간에 잠자리에 들기</li>
+            <li>2. 스마트폰이나 컴퓨터 사용을 최소화하기</li>
+            <li>3. 잠자리에 드는 30분 전에는 편안한 활동을 하기</li>
+        </ul>
+    </section>
+
+    <section id="tips">
+        <h2>수면을 위한 팁</h2>
+        <ul>
+            <li>1. 매일 같은 시간에 일어나기</li>
+            <li>2. 카페인 섭취 줄이기</li>
+            <li>3. 편안한 수면 환경 만들기 (온도, 소음 등)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 10대 수면 정보</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+/* styles.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+// script.js
+
+document.addEventListener('DOMContentLoaded', function() {
+    // 스크롤 효과나 다른 동적인 기능을 추가할 수 있어
+    console.log("홈페이지가 준비되었습니다!");
+});
